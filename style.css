@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background: #2C2B3D;
+    min-height: 100vh;
+    
+}
+div{
+    padding: 71px 90px 23px 100px ;
+}
+
+
+nav{
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*nav h2 img{
+   width: 13px;
+    height: 16px;*/
+
+nav h2{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+}
+nav ul{
+    display: flex;
+    gap: 64px;
+    list-style: none;
+    cursor: pointer;
+
+    
+}
+nav ul li{
+    color: white;
+    opacity: 0.7;
+    
+}
+nav ul li:hover{
+    opacity: 1;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+
+
+section{
+    font-family: 'Open Sans', sans-serif;
+}
+section h1{
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+}
+section h1 strong{
+    color:#00BFA6
+}
+
+section p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+section span{
+    color: #00BFA6;
+}
+
+
+#linha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 160px auto 27px;
+    padding: 0;
+    width: 568px;
+    height: 0px;
+    
+    border: 1px #00BFA6 solid;
+}
+footer{
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    color: white;
+
+}
+
+.cadeado{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
